@@ -1,0 +1,19 @@
+package demos;
+
+public class Contractor {
+	public static void main(String[] args) {
+		Comp user1 = new Comp("Gabbie", 5000);
+		//user1.name = "Gabbie";
+		//user1.email = "gabbie@msn.com";
+		//user1.phone = "0794569908";
+		//user1.ssn = "123456";
+		
+		String mo = user1.ssn;
+		
+		Comp user2 = new Comp("ITS");
+		
+		System.out.println(user1.name, 5000);
+		//user1.work();
+	}
+
+}
